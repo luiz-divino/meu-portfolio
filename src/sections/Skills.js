@@ -3,25 +3,19 @@ import skillsData from "../data/skillsData";
 
 function Skills() {
     return (
-        <div className="h-screen flex items-center justify-center flex-col space-y-8 flex-wrap bg-gray-300">
-            <h1 className="text-4xl font-bold mb-10">My Skills</h1>
+        <div className="h-full flex items-center justify-center space-y-8 flex-wrap bg-gray-300">
+            <h1 className="text-4xl font-bold mt-10">My Skills</h1>
 
-            <div className="flex space-x-4 flex-wrap justify-center">
-                {Object.entries(skillsData).map(([category, icons]) => (
-                    <div key={category} className="flex flex-col items-center gap-3">
-
-                        <h2 className="text-2xl font-semibold">{category}</h2>
-
-                        <div className="flex space-x-2 mb-14">
-                            {Object.entries(icons).map(([name, icon]) => (
-                                <div key={name} className="flex flex-col items-center flex-wrap">
-                                    <div><img src={icon} alt={name} className="w-12 h-12" /></div>
-                                </div>
-                            ))}
+            <div className="flex space-x-4 justify-center">
+                <div className="flex items-center flex-wrap justify-center mb-4">
+                    {skillsData.map(skills => (
+                        <div key={skills.id} className="m-4 p-4 bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+                            <img src={skills.image} alt={skills.nome} className="w-25 h-20" />
                         </div>
+                    ))}
 
-                    </div>
-                ))}
+                </div>
+
             </div>
         </div>
     );

@@ -8,28 +8,74 @@ import vercel from '../icons/vercel.svg';
 import github from '../icons/github.svg';
 import git from '../icons/git.svg';
 import node from '../icons/nodejs.svg';
+import firebase from '../icons/firebase.svg'
 import postegresql from '../icons/postgresql.svg';
 
 
- const skillsData  = {
-    "front-end": {
-        html: html,
-        css: css,
-        javascript: javascript,
-        bootstrap: bootstrap,
-        react: react,
-        tailwind: tailwind
+const skillsData = [
+     {
+        id: 1,
+        image: html,
+        nome:'html'
     },
-    "back-end": {
-        node: node,
-        postegresql: postegresql
-    },
-    "deployment & version control": {
-        vercel: vercel,
-        github: github,
-        git: git
 
-    }
-};
+    {
+        id: 2,
+        image: css,
+        nome:'css'
+    },
+    {
+        id: 3,
+        image: javascript,
+        nome:'javascript'
+    },
+    {
+        id: 4,
+        image: bootstrap,
+        nome:'bootstrap'
+    },
+    {
+        id: 5,
+        image: react,
+        nome: 'react'
+    },
+    {
+        id: 6,
+        image: tailwind,
+        nome:'tailwind'
+    },
+    {
+        id: 7,
+        image: vercel,
+        nome:'vercel'
+    },
+    {
+        id: 8,
+        image: github,
+        nome:'github'
+    },
+    {
+        id: 9,
+        image: git,
+        nome:'git'
+
+    },
+    {
+        id: 10,
+        image: node,
+        nome:'node'
+    },
+    {
+        id: 11,
+        image: postegresql,
+        nome:'postegresql'
+    },
+    {
+        id: 12,
+        image: firebase,
+        nome:'firebase'
+    },
+    
+];
 
 export default skillsData;
