@@ -3,14 +3,18 @@ import Hero from './sections/Hero';
 import About from './sections/About';
 import Skills from './sections/Skills';
 import ProjectsCard from './sections/ProjectsCard';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <div>
-      <Hero />
-      <About />
-      <Skills />
-      <ProjectsCard />
+      <Navbar />
+      <main className="pt-14">{/* offset for fixed navbar */}
+        <Hero />
+        <About />
+        <Skills />
+        <ProjectsCard />
+      </main>
     </div>
   );
 }

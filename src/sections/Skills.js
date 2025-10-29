@@ -3,7 +3,7 @@ import skillsData from "../data/skillsData";
 
 function Skills() {
     return (
-        <div className="h-full flex items-center justify-center space-y-8 flex-wrap bg-gray-300">
+        <section id="skills" className="h-full flex items-center justify-center space-y-8 flex-wrap bg-gray-300">
             <h1 className="text-4xl font-bold mt-10">My Skills</h1>
 
             <div className="flex space-x-4 justify-center">
@@ -17,7 +17,7 @@ function Skills() {
                 </div>
 
             </div>
-        </div>
+        </section>
     );
 }
 

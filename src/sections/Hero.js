@@ -3,7 +3,7 @@ import imgBackground from "../assets/img/background.jpg"
 
 function Hero() {
   return (
-    <section className="hero h-screen flex items-center justify-center" style={{ backgroundImage: `url(${imgBackground})`, backgroundSize: 'cover' }}>
+    <section id="home" className="hero h-screen flex items-center justify-center" style={{ backgroundImage: `url(${imgBackground})`, backgroundSize: 'cover' }}>
       <div className="font-sans font-bold md:font-serif text-center py-20 text-blue-600">
         <h1 className="text-4xl">LUIZ FERNANDO</h1>
         <p className="mt-4 text-2xl pb-6 font-semibold text-gray-900">Desenvolvedor Full-stack junior</p>

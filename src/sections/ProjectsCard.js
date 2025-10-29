@@ -3,7 +3,7 @@ import projectsData from "../data/projects";
 
 function ProjectsCard() {
     return (
-        <section className="h-screen flex flex-col items-center justify-center">
+        <section id="projects" className="h-screen flex flex-col items-center justify-center">
             <h1 className="text-4xl font-bold mb-10">Latest Projects</h1>
             <div className="flex flex-wrap justify-center gap-8 px-4" >
                 {projectsData.map((project) => (
