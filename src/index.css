@@ -8,6 +8,15 @@ html{
     scroll-behavior: smooth;
 }
 
+/* Prevent accidental horizontal scroll on small screens caused by full-width elements */
+html, body {
+    overflow-x: hidden;
+}
+
 .nome {
     font-family: 'Play', sans-serif;
+}
+
+.nome-nav {
+    font-family: 'Russo One', sans-serif;
 }
