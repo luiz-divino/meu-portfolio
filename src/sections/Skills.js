@@ -4,7 +4,7 @@ import skillsData from "../data/skillsData";
 function Skills() {
     return (
         <section id="skills" className="h-full flex items-center justify-center space-y-8 flex-wrap bg-gray-300">
-            <h1 className="text-4xl font-bold mt-10">My Skills</h1>
+            <h1 className="text-4xl font-bold mt-10 text-blue-600"><span className="text-yellow-600">My</span> Skills</h1>
 
             <div className="flex space-x-4 justify-center">
                 <div className="flex items-center flex-wrap justify-center mb-4">
