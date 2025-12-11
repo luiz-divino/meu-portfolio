@@ -9,7 +9,7 @@ function App() {
   return (
     <div>
       <Navbar />
-      <main className="pt-14">{/* offset for fixed navbar */}
+      <main className="pt-14">
         <Hero />
         <About />
         <Skills />
