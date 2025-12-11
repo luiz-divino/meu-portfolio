@@ -6,7 +6,7 @@ function About() {
     return (
         <div id="about">
             <section className="h-auto flex items-center justify-center flex-col gap-6 px-6 text-justify py-12 bg-gray-100">
-                <h2 className="text-4xl font-bold text-blue-700">Sobre <span className="text-yellow-600">Mim</span></h2>
+                <h2 className="text-4xl font-bold text-blue-700 py-2">Sobre <span className="text-yellow-600">Mim</span></h2>
                 <p className="text-lg font-serif">
                     Sou um desenvolvedor full-stack júnior com uma paixão por arquitetar soluções web completas. Atualmente com 20 anos e cursando Engenharia de Software no IBMEC-RJ, eu trago uma mentalidade estruturada para o desenvolvimento, sempre buscando escrever códigos limpos, eficientes e escaláveis.
                     Meu foco é dominar todo o ecossistema web, desde a criação de interfaces de usuário ricas (front-end) até a implementação da lógica de negócios e bancos de dados (back-end). Estou sempre pronto para mergulhar em novos desafios e aprender continuamente.
