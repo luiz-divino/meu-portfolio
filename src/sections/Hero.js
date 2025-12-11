@@ -25,9 +25,9 @@ function Hero() {
             className="px-4 py-2 text-white rounded">
             <img src={curriculo} className="w-12 h-12 hover:scale-50 transition duration-300" alt="icon de curriculo" />
           </a>
-         
+
         </div>
- <h3>Veja meu curriculo</h3>
+        <h3>Veja meu curriculo</h3>
       </div>
 
 
