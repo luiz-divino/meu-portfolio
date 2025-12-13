@@ -1,8 +1,6 @@
 import React from "react";
-import projetoFutebol from "../assets/img/projetoFutebol.png"
-import adivinhePersonagem from "../assets/img/projetoPersonagens.png"
-import dataValidator from '../assets/img/dataValidator.jpeg'
-import rh from '../assets/img/RH.jpeg'
+import dataValidator from '../assets/img/validaDados.png'
+import rh from '../assets/img/rh.png'
 
  const projectsData = [
     {
