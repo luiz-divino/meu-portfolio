@@ -8,6 +8,7 @@ function Navbar() {
     { href: '#about', label: 'Sobre' },
     { href: '#skills', label: 'Skills' },
     { href: '#projects', label: 'Projetos' },
+    { href: '#contact', label: 'Contact' },
   ];
 
   return (
@@ -16,7 +17,7 @@ function Navbar() {
         <div className="flex items-center justify-between h-14">
            <div className="nome-nav text-3xl text-blue-600 tracking-widest"><span className='text-yellow-600'>L</span>UIZ</div>
 
-          {/* Desktop links */}
+          {}
           <div className="hidden md:flex space-x-6">
             {links.map((l) => (
               <a key={l.href} href={l.href} className="text-gray-700 font-bold hover:text-blue-600 transition">
@@ -25,7 +26,7 @@ function Navbar() {
             ))}
           </div>
 
-          {/* Mobile toggle */}
+          {}
           <div className="md:hidden">
             <button
               aria-label="Toggle menu"
@@ -33,7 +34,7 @@ function Navbar() {
               onClick={() => setOpen((v) => !v)}
               className="p-2 rounded-md text-gray-700 hover:bg-gray-100"
             >
-              {/* simple hamburger icon */}
+              {}
               <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d={open ? 'M6 18L18 6M6 6l12 12' : 'M4 6h16M4 12h16M4 18h16'} />
               </svg>
@@ -41,7 +42,7 @@ function Navbar() {
           </div>
         </div>
 
-        {/* Mobile menu dropdown */}
+        {}
         {open && (
           <div className="md:hidden mt-2 pb-4">
             <div className="flex flex-col space-y-2">
