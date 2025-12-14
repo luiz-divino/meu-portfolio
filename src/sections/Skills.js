@@ -4,10 +4,10 @@ import background from "../assets/img/background2.jpeg"
 
 function Skills() {
     return (
-        <section id="skills" className="h-full flex items-center justify-center space-y-8 flex-wrap" style={{ backgroundImage: `url(${background})`, backgroundSize: 'cover' }}>
-            <h1 className="text-4xl font-bold mt-10 text-blue-600 bg-gray-100 p-2 rounded-md"><span className="text-yellow-600">My</span> Skills</h1>
+        <section id="skills" className="h-full py-4 flex items-center justify-center flex-wrap" style={{ backgroundImage: `url(${background})`, backgroundSize: 'cover' }}>
+            <h1 className="text-4xl font-bold mt-8 text-blue-600 bg-yellow-600 p-2 rounded-md">Skills</h1>
 
-            <div className="flex space-x-4 justify-center">
+            <div className="flex space-x-4 mt-8 justify-center">
                 <div className="flex items-center flex-wrap justify-center mb-4">
                     {skillsData.map(skills => (
                     <div key={skills.id} className="

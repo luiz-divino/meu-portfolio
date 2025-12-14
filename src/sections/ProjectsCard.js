@@ -4,9 +4,9 @@ import background from "../assets/img/background4.png"
 
 function ProjectsCard() {
     return (
-        <section id="projects" className="h-full flex flex-col items-center justify-center py-8" style={{ backgroundImage: `url(${background})`, backgroundSize: 'cover' }}>
-            <h1 className="text-4xl font-bold text-blue-600 bg-white mb-9 p-2 rounded-md"><span className="text-yellow-600">Latest </span>Projects</h1>
-            <div className="flex flex-wrap justify-center gap-8 px-4 group relative w-full overflow-hidden" >
+        <section id="projects" className="h-screen py-10 flex flex-col items-center justify-center" style={{ backgroundImage: `url(${background})`, backgroundSize: 'cover' }}>
+            <h1 className="text-4xl font-bold text-blue-600 p-2 bg-yellow-600 rounded-md">Projects</h1>
+            <div className="flex flex-wrap justify-center gap-8 group mt-10 relative w-full overflow-hidden" >
                 {projectsData.map((project) => (
                     <div key={project.id} className="w-72 h-50 relative group overflow-hidden rounded border border-gray-900">
                         <a href={project.url}
